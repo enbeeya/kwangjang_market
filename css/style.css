@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* web font */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+
+/* initialization */
+* {margin:0px; padding:0px; border:0px; }
+a {text-decoration: none; }
+li {list-style: none; }
+img {border: 0;right: 2px;}
+/* font */
+h1{color: #999;font-family: "Jeju Gothic", sans-serif;font-size: 45px;text-align: left;}
+h2{color: #777;font-family: "Jeju Gothic", sans-serif;font-size: 20px;text-align: left;}
+p{color: #C7C7C7;font-size: 10px;line-height: 13px;text-align: left;}
+
+/* hyperlink */
+a:link {color: #787878;text-decoration: none;}
+a:visited {color: #787878;text-decoration: none;}
+a:hover {color: #2ec18b;text-decoration: none;}
+a:active {text-decoration: none;}
+
+.storymarket:link {color: #787878;text-decoration: none;}
+.storymarket:visited {color: #787878;text-decoration: none;}
+.storymarket:hover {color: #10705A; text-decoration: none;font-size: 32px; font-weight: bold;}
+.storymarket:active {text-decoration: none;}
+
+.storymarket_2:link {color: #10705A; text-decoration: none;font-weight: bold;}
+.storymarket_2:visited {color: #10705A; ;text-decoration: none;font-weight: bold;}
+.storymarket_2:hover {color: #10705A; text-decoration: none;font-weight: bold;}
+.storymarket_2:active {text-decoration: none;}
+
+/* header */
+#header {width: 100%;position: fixed;z-index: 55;overflow: hidden;}
+.menu_bar {
+	width: 130px;
+	height: 130px;
+	background-color: #FFFFFF;
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	opacity: 0.9;
+	border: 3px solid #2ec18b;
+	z-index: 100;
+}
+.header_container{width: 200px;height: 130px;}
+.menu_bar>a>img{margin-top:4px;}
+.logo_2{opacity:0.6;}
+
+/* menu font */
+.storym{
+	margin-top: 6px;
+	margin-left: 15px;
+	font-size: 21px;font-family: "Jeju Gothic", sans-serif;
+}
+
+.storym_2{
+	margin-top: 7px;
+	margin-left: 15px;
+	line-height: 32px;font-size: 32px;color: #2ec18b; font-family: "Jeju Gothic", sans-serif;
+}
+
+.intro{
+	margin-top: 6px;
+	margin-left: 15px;
+	font-size: 12px;font-family: "Jeju Gothic", sans-serif;
+}
+
+.kwangjang{
+	margin-top:7px;
+	margin-left:15px;
+	font-size: 12px;font-family: "Jeju Gothic", sans-serif;
+}
+
+/* list button */
+.list_btn{
+	width:60px; 
+	height: 60px;
+	background-color: #02c8b8;
+	position: absolute; 
+	top: 105px;
+	left: 210px;
+	border-radius:50%;
+	z-index: 101;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align:middle;
+}
+
+.list_btn a{ 
+ 	color:#fff;
+ 	padding-top:18px;
+ 	font-size: 14px;font-family: "Jeju Gothic", sans-serif;
+	display:inline-block; 
+}
+	
+#content{
+  position: relative;
+  top: -35px;
+}
+
+/* container */
+#container {top: 220px;margin-left: auto;margin-right: auto;border: 5px black;}
+	
+.block { width: 200px;height: 133px;}
+.movie { width:600px; height:345px ;}
+
+/* Story Thumb-nail */
+.story {width: 198px;height: 228px;border: 1px solid #E5E5E5;background : white;}
+.story_2 {width: 198px;height: 228px;border: 1px solid #E5E5E5;background : white;}
+
+.hover-image > img {width: 198px;height: 228px;}
+
+.story .hover-image {position: absolute;display: none;}
+.story:hover .hover-image {display: block;}
+
+.story_2 .story_content {position: absolute;display: none;}
+.story_2:hover .story_content {display: block;}
+.story_2:hover .hover-image {display: none;}
+
+.story_content {
+	padding-top: 15px;
+	padding-left: 15px;
+	text-align: left;font-family: "Jeju Gothic", sans-serif;line-height: 45px;
+	z-index:0;
+}
+
+.text_box {padding : 20px;}
+.text_1{
+	color: #777;
+	font-size: 11px;
+	line-height: 19px;
+	text-align: left;
+	font-weight: bold;
+	float: none;
+}
+.text_2{color: #909090;font-size: 12px;line-height: 19px;text-align: left;}
+
+.moreButton{
+	text-align: right;
+	height: 23px;
+	width: 40px;
+	float: left;
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
+/* layout */
+.w1 { width: 200px; }
+.w2 { width: 400px; }
+.w3 { width: 600px; }
+
+.h1 { height: 115px; }
+.h2 { height: 230px; }
+.h3 { height: 345px; }
+.h4 { height: 460px; }
+.h5 { height: 575px; }
+.h6 { height: 690px; }
+
+/* footer */
+.bottom {
+	width : 100%;
+	heigth : 30px;
+	border: 1px black;
+	bottom : 0px;
+	z-index: 10;
+	position: fixed;
+	background-color: white;
+	text-align: center;
+}
+
+.bottom>img {
+	width: 575px;
+	margin-left: 50px;
+}
+/* storymarket iframe */
+#story_flame{
+	width: 100%;
+	height: 100%;
+	padding-top: 120px;
+
+}
+/* ---- Media-quary ---- */
+@media all and (max-width: 600px) {
+     .movie {
+           width: 400px;
+           height: 225px;
+     }
+}
