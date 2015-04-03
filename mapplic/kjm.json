@@ -1,0 +1,112 @@
+{
+	"mapwidth": "800",
+	"mapheight": "600",
+	"categories": [
+		{
+			"id": "food",
+			"title": "식 품",
+			"icon": "images/food.png",
+			"color": "#bfe79e",
+			"show": "false"
+		},
+		{
+			"id": "dep",
+			"title": "패 션",
+			"icon": "images/cart.png",
+			"color": "#f8c255",
+			"show": "false"
+		},
+		{
+			"id": "clothing",
+			"title": "한 복",
+			"icon": "images/cloth.png",
+			"color": "#f56b7e",
+			"show": "false"
+		},
+		{
+			"id": "health",
+			"title": "직 물",
+			"icon": "images/health.png",
+			"color": "#b7a6bd",
+			"show": "false"
+		},
+		{
+			"id": "misc",
+			"title": "기 타",
+			"icon": "images/misc.png",
+			"color": "#7dd5c9",
+			"show": "false"
+		}
+	],
+	"levels": [
+		{
+			"id": "ground",
+			"title": "1 층",
+			"map": "mapplic/svg/kjm_1f.svg",
+			"minimap": "mapplic/svg/kjm_1f_small.jpg",
+			"show": "true",
+			"locations": [
+				{
+					"id": "sunhui",
+					"title": "순희네반찬",
+					"about": "38호",
+					"description": "02-2267-3341 / 야채 식재료",
+					"category": "misc",
+					"link": "story_629.html#sunhui",
+					"x": "0.8018",
+					"y": "0.3517",
+					"zoom": "10"
+				},
+				{
+					"id": "youngsin",
+					"title": "영신 침구",
+					"about": "128호",
+					"description": "02-2275-3727 / 침구",
+					"category": "health",
+					"link": "http://www.kwangjangmarket.co.kr/interview/628",
+					"x": "0.7413",
+					"y": "0.5075",
+					"zoom": "10"
+				},
+				{
+					"id": "keumho",
+					"title": "금호 주단",
+					"about": "49호",
+					"description": "02-2267-8383 / 폐백",
+					"category": "food",
+					"tooltip": "default",
+					"x": "0.2052",
+					"y": "0.4891",
+					"zoom": "10"
+				}
+			]
+		},
+		{
+			"id": "first",
+			"title": "2 층",
+			"map": "images/mall/kjm_2f.svg",
+			"minimap": "images/mall/kjm_2f_small.jpg",
+			"locations": [
+				{
+					"id": "gap",
+					"title": "영창 직물",
+					"about": "180호",
+					"description": "02-2278-2957 / 직물",
+					"category": "dep",
+					"link": "http://www.naver.com",
+					"x": "0.5",
+					"y": "0.5"
+				},
+				{
+					"id": "pullbear",
+					"title": "한올 명주",
+					"about": "210호",
+					"description": "02-2268-6664 / 명주",
+					"category": "clothing",
+					"x": "0.35",
+					"y": "0.5"
+				}
+			]
+		}
+	]
+}

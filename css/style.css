@@ -8,11 +8,10 @@
 * {margin:0px; padding:0px; border:0px; }
 a {text-decoration: none; }
 li {list-style: none; }
-img {border: 0;right: 2px;}
+img { border: 0;}
 /* font */
-h1{color: #999;font-family: "Jeju Gothic", sans-serif;font-size: 45px;text-align: left;}
-h2{color: #777;font-family: "Jeju Gothic", sans-serif;font-size: 20px;text-align: left;}
-p{color: #C7C7C7;font-size: 10px;line-height: 13px;text-align: left;}
+
+/*p{color: #C7C7C7;font-size: 10px;line-height: 13px;text-align: left;}*/
 
 /* hyperlink */
 a:link {color: #787878;text-decoration: none;}
@@ -33,13 +32,10 @@ a:active {text-decoration: none;}
 /* header */
 #header {width: 100%;position: fixed;z-index: 55;overflow: hidden;}
 .menu_bar {
-	width: 130px;
-	height: 130px;
+	width: 130px; height: 130px;
 	background-color: #FFFFFF;
-	float: left;
-	position: absolute;
-	top: 30px;
-	left: 50px;
+	float: left; position: absolute;
+	top: 30px;left: 50px;
 	opacity: 0.9;
 	border: 3px solid #2ec18b;
 	z-index: 100;
@@ -50,37 +46,31 @@ a:active {text-decoration: none;}
 
 /* menu font */
 .storym{
-	margin-top: 6px;
-	margin-left: 15px;
+	margin-top: 6px; margin-left: 15px;
 	font-size: 21px;font-family: "Jeju Gothic", sans-serif;
 }
 
 .storym_2{
-	margin-top: 7px;
-	margin-left: 15px;
+	margin-top: 7px;margin-left: 15px;
 	line-height: 32px;font-size: 32px;color: #2ec18b; font-family: "Jeju Gothic", sans-serif;
 }
 
 .intro{
-	margin-top: 6px;
-	margin-left: 15px;
+	margin-top: 6px;margin-left: 15px;
 	font-size: 12px;font-family: "Jeju Gothic", sans-serif;
 }
 
 .kwangjang{
-	margin-top:7px;
-	margin-left:15px;
+	margin-top:7px;margin-left:15px;
 	font-size: 12px;font-family: "Jeju Gothic", sans-serif;
 }
 
 /* list button */
 .list_btn{
-	width:60px; 
-	height: 60px;
+	width:60px; height: 60px;
 	background-color: #02c8b8;
 	position: absolute; 
-	top: 105px;
-	left: 210px;
+	top: 105px;left: 210px;
 	border-radius:50%;
 	z-index: 101;
 	margin: 0 auto;
@@ -96,46 +86,36 @@ a:active {text-decoration: none;}
 }
 	
 #content{
-  position: relative;
-  top: -35px;
+  position: relative; top: -35px;
 }
 
 /* container */
-#container {top: 220px;margin-left: auto;margin-right: auto;border: 5px black;}
-	
-.block { width: 200px;height: 133px;}
-.movie { width:600px; height:345px ;}
+#container {top: 220px;margin-left: auto;margin-right: auto;}
+.block { width: 200px;height:133px;}
+.movie { width:600px; height:345px;}
 
 /* Story Thumb-nail */
 .story {width: 198px;height: 228px;border: 1px solid #E5E5E5;background : white;}
-.story_2 {width: 198px;height: 228px;border: 1px solid #E5E5E5;background : white;}
-
-.hover-image > img {width: 198px;height: 228px;}
-
 .story .hover-image {position: absolute;display: none;}
 .story:hover .hover-image {display: block;}
 
+.hover-image > img {width: 198px;height: 228px;}
+
+
+.story_2 {width: 198px;height: 228px;border: 1px solid #E5E5E5;background : white;}
 .story_2 .story_content {position: absolute;display: none;}
 .story_2:hover .story_content {display: block;}
 .story_2:hover .hover-image {display: none;}
-
-.story_content {
-	padding-top: 15px;
-	padding-left: 15px;
-	text-align: left;font-family: "Jeju Gothic", sans-serif;line-height: 45px;
-	z-index:0;
-}
-
-.text_box {padding : 20px;}
+h1{color: #777;font-family: "nanumgothic", sans-serif;font-size: 25px;text-align: left; margin-bottom:5px; padding:10px;}
+h2{color: #333;font-family: "nanumgothic", sans-serif;font-size: 20px;text-align: left; margin-bottom:5px;}
+.text_box { padding-left:20px; padding-right:20px;}
 .text_1{
-	color: #777;
-	font-size: 11px;
-	line-height: 19px;
-	text-align: left;
-	font-weight: bold;
-	float: none;
-}
-.text_2{color: #909090;font-size: 12px;line-height: 19px;text-align: left;}
+	font-family: "nanumgothic";
+	color: #333;
+	font-size: 13px;line-height: 20px;text-align: left;font-weight: bold;float: none; margin-bottom:15px;}
+.text_2{
+	font-family: "nanumgothic";
+	color: #777; font-size: 13px;line-height: 20px;text-align: left; margin-top:15px;} 
 
 .moreButton{
 	text-align: right;
@@ -143,8 +123,8 @@ a:active {text-decoration: none;}
 	width: 40px;
 	float: left;
 	position: absolute;
-	right: 20px;
-	bottom: 15px;
+	right: 30px;
+	bottom: 20px;
 }
 /* layout */
 .w1 { width: 200px; }
@@ -160,8 +140,7 @@ a:active {text-decoration: none;}
 
 /* footer */
 .bottom {
-	width : 100%;
-	heigth : 30px;
+	width : 100%; heigth : 30px;
 	border: 1px black;
 	bottom : 0px;
 	z-index: 10;
@@ -176,15 +155,33 @@ a:active {text-decoration: none;}
 }
 /* storymarket iframe */
 #story_flame{
-	width: 100%;
-	height: 100%;
+	width: 100%;height: 100%;
 	padding-top: 120px;
 
 }
 /* ---- Media-quary ---- */
-@media all and (max-width: 600px) {
-     .movie {
-           width: 400px;
-           height: 225px;
-     }
+
+@media screen and (max-width: 600px) {
+     .movie { width: 100%; height:230px; margin-bottom:10px;}
+	 /*.block { width: 50% }*/
+	 .menu_bar {float: left; position: absolute; top: 10px;left: 10px;}
+	}
+
+@media screen and (max-width: 400px) {
+	/*#content{display:none;}*/
+	#container {width: 100%; margin-left:5px;margin-right:5px;}
+	.block { width: 100%; margin-bottom:15px;}
+	.movie iframe{ width: 320px; height:180px;}
+	
+	.story { width: 320px; height:160px; overflow:hidden;}
+	/*.story img {width:100%;height: auto;}*/
+	.hover-image  img {width: 320px;height: 160px;}
+	
+	.story_content {position: absolute; width: 100%;height:auto;}
+	.story_2 { width: 320px; height:160px; overflow:hidden;}
+	.story_2 img{ width: 100%;height:auto; }
+	
+	.w1 { width: 100%; height:auto}
+	.text_box {width:320px; height:auto; padding : 5px;}
+	.moreButton{ right:-100px; bottom: 0px;}
 }
