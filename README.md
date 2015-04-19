@@ -5,10 +5,10 @@ base on flashmovie and actionscript
 URL: http://www.kwangjangmarket.co.kr <br>
 mobile page: http://m.kwangjangmarket.co.kr
 
-2015_renewal
-base on Html5
-responsive web. mobile first design
-javascript map plugin-mapplic
+2015_renewal<br>
+base on Html5<br>
+responsive web. mobile first design<br>
+javascript map plugin-mapplic<br>
 
 # how to publish project_page
 
