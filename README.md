@@ -1,10 +1,14 @@
 # kwangjang_market
-2015_responsive web
+2011_publish 
+base on flashmovie and actionscript
 
 URL: http://www.kwangjangmarket.co.kr <br>
 mobile page: http://m.kwangjangmarket.co.kr
 
-
+2015_renewal
+base on Html5
+responsive web. mobile first design
+javascript map plugin-mapplic
 
 # how to publish project_page
 
