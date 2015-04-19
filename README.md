@@ -1,6 +1,10 @@
 # kwangjang_market
 2015_responsive web
 
+URL: http://www.kwangjangmarket.co.kr <br>
+mobile page: http://m.kwangjangmarket.co.kr
+
+
 
 # how to publish project_page
 
