@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ï»¿@charset "UTF-8";
 /* web font */
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
@@ -193,7 +193,7 @@ a:active {text-decoration: none;}
 	#container {width: 100%; margin-left:5px;margin-right:5px;}
 	.block { width: 100%; margin-bottom:15px;}
 	.movie iframe{ width: 320px; height:180px;}
-        /* HTML 5  ¼­¿ï°úÇĞ±â¼ú´ëÇĞ±³*/ 
+        /* HTML 5  ì„œìš¸ê³¼í•™ê¸°ìˆ ëŒ€í•™êµ- design */ 
 	
 	.story { width: 320px; height:160px; overflow:hidden;}
 	/*.story img {width:100%;height: auto;}*/
