@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<title>영창직물</title>
+<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="mapplic/map.css">
+<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+<link rel="stylesheet" type="text/css" href="mapplic/mapplic_link.css">
+<script src="js/iframe_resize.js"></script>
+</head>
+<body>
+<header id="header">
+<div class="menu_bar">
+	<div class="header_container">
+		<a class="logo_2" href="index.html">
+		<img src="image/logo_2.png" width="130" height="40" alt="logo"/>
+		</a>
+		<div class="storym_2">
+			<a class="storymarket_2" href="storym.html">스토리마켓</a>
+		</div>
+		<div class="intro">
+			<a href="intro.html">광장소개</a>
+		</div>
+		<div class="kwangjang">
+			<a href="kwangjang.html">광장소식</a>
+		</div>
+	</div>
+</div>
+<!--<div class="list_btn"><a href="#">리스트<br>보기</a></div>-->
+<div id="content">
+	<!-- Map -->
+	<div class="map-container">
+		<div id="mapplic">
+		</div>
+	</div>
+</div>
+</header>
+<!-- 스토리마켓 개별콘텐츠 -->
+<section id="story_flame">
+<iframe src="storymarket/story_629/index.html" width="100%" onload="autoResize(this)" frameborder="0" scrolling="no">
+</iframe>
+</section>
+<footer>
+<div class="bottom">
+	<img src="image/footer.png"/>
+</div>
+</footer>
+<!-- Scripts 정의 -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/hammer.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="mapplic/mapplic.js"></script>
+<!-- mall data 읽어 오는 script data file : mall.json-->
+<script type="text/javascript">
+			$(document).ready(function() {
+				$('#mapplic').mapplic({
+					source: 'kjm.json', // map source 파일 - json 으로 구성
+					height: 240,
+					sidebar: false,    // sidebar 안보이게 하기
+					minimap: true,    // minimap 안보이게 하기
+					locations: true,  // locations이 true가 되면 업체의 description과 Hover가 같이 나타남. false가 자연스럽다.
+					deeplinking: true,  // deeplinking - 클릭하면 자동으로 zoom되는 기능이다.
+					fullscreen: false,  // fullscreen 버튼 안보이게 하기 
+					hovertip: true,     // hovertip 보이게 하기
+					developer: true,    // developer 아직 모르겠음. 141021
+					maxscale: 6 // maximum scale factor
+				});
+			});
+</script>
+</body>
+</html>
